@@ -9,6 +9,9 @@ import { ServiciosComponent } from './componentes/servicios/servicios.component'
 import { NosotrosComponent } from './componentes/nosotros/nosotros.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ModalDetalleServiciosComponent } from './componentes/servicios/modal-detalle-servicios/modal-detalle-servicios.component';
+import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { InicioComponent } from './componentes/inicio/inicio.component';
+import { CarrucelComponent } from './componentes/carrucel/carrucel.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { ModalDetalleServiciosComponent } from './componentes/servicios/modal-de
     ServiciosComponent,
     NosotrosComponent,
     FooterComponent,
-    ModalDetalleServiciosComponent
+    ModalDetalleServiciosComponent,
+    ContactoComponent,
+    InicioComponent,
+    CarrucelComponent
   ],
   imports: [
     BrowserModule,
